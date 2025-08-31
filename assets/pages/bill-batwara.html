@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="description" content="plan your savings better" />
+    <title>Bill Batwara</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <header class="container">
+        <nav>
+            <ul>
+                <li><a href="/index.html">Paise Planner</a></li>
+                <li><a href="/assets/pages/converter.html">Kurrency Konverter</a></li>
+                <li><a href="/assets/pages/discount-cal.html">Discount Deducer</a></li>
+                <li><a href="/assets/pages/bill-batwara.html">Bill Batwara</a></li>
+            </ul>
+        </nav>
+
+        <hgroup>
+            <h1>Bill Batwara</h1>
+            <p>Bill baaton nafrat nahi</p>
+        </hgroup>
+    </header>
+
+    <main class="container">
+        <section>
+            <p>Just out of party and everyone needs to pay, but how much?</p>
+
+            <div class="grid">
+                <input type="number" id="totalBill" placeholder="Total bill" required />
+
+                <input type="number" id="numPeople" placeholder="Number of people" required />
+
+                <button id="splitBtn" type="button">Split the Bill</button>
+            </div>
+        </section>
+
+        <section>
+            <p id="result"></p>
+        </section>
+    </main>
+
+    <footer class="container neog-footer">
+        <small>
+            go from zero to hero at full stack development with
+            <a href="https://neog.camp">neog.camp</a>
+        </small>
+    </footer>
+
+    <script>
+        const splitBtn = document.getElementById("splitBtn");
+
+        function splitBill(total, people) {
+            return (total / people).toFixed(2);
+        }
+
+        function handleSplitClick() {
+            const total = document.getElementById("totalBill").value;
+            const people = document.getElementById("numPeople").value;
+            const resultElement = document.getElementById("result");
+
+            const amountPerPerson = splitBill(total, people);
+            resultElement.innerText = "Each person should pay ₹" + amountPerPerson;
+        }
+
+        splitBtn.addEventListener("click", handleSplitClick);
+    </script>
+</body>
+
+</html>
