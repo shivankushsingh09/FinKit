@@ -6,11 +6,11 @@
 
 ## 🚀 Live Preview
 
-> *Screenshots of the FinKit Mini Tools*  
+> _Screenshots of the FinKit Mini Tools_  
 > ![Paise Planner](assets/img/paise-planner.png)  
-> ![Kurrency Konverter](assets/img/Kurrency%20Konverter.png)  
-> ![Discount Deducer](assets/img/Discount%20Deducer.png)  
-> ![Bill Batwara](assets/img/Bill%20Batwara.png)
+> ![Kurrency Konverter](assets/img/kurrency-konverter.png)  
+> ![Discount Deducer](assets/img/discount-deducer.png)  
+> ![Bill Batwara](assets/img/bill-batwara.png)
 
 ---
 
@@ -18,25 +18,29 @@
 
 FinKit is a collection of four intuitive mini-apps:
 
-### 1. Paise Planner <br> *(Finance Goal Tracker)*
+### 1. Paise Planner <br> _(Finance Goal Tracker)_
+
 - **Set financial goals**: Input your target savings, current savings, and desired time frame.
 - **Monthly saving suggestion**: Calculates how much you need to save per month to reach your goal.
 - ![Paise Planner Screenshot](https://user-images.githubusercontent.com/your-screenshot-url)  
   <img src="Image4" alt="Paise Planner Screenshot"/>
 
-### 2. Kurrency Konverter <br> *(Currency Converter)*
+### 2. Kurrency Konverter <br> _(Currency Converter)_
+
 - **USD to INR conversion**: Instantly converts US Dollars to Indian Rupees.
 - **Easy to use**: Just enter the amount in USD, and get the INR equivalent.
 - ![Kurrency Konverter Screenshot](https://user-images.githubusercontent.com/your-screenshot-url)  
   <img src="Image3" alt="Kurrency Konverter Screenshot"/>
 
-### 3. Discount Deducer <br> *(Discount Calculator)*
+### 3. Discount Deducer <br> _(Discount Calculator)_
+
 - **Calculate discounts**: Enter the total amount and discount percentage to see the final price and total savings.
 - **Shopping made smarter**: Know exactly how much you save on every purchase.
 - ![Discount Deducer Screenshot](https://user-images.githubusercontent.com/your-screenshot-url)  
   <img src="Image2" alt="Discount Deducer Screenshot"/>
 
-### 4. Bill Batwara <br> *(Bill Splitter)*
+### 4. Bill Batwara <br> _(Bill Splitter)_
+
 - **Split bills easily**: Enter the total bill and number of people—get how much everyone needs to pay.
 - **Perfect for group outings**: No more confusion after parties or dinners.
 - ![Bill Batwara Screenshot](https://user-images.githubusercontent.com/your-screenshot-url)  
