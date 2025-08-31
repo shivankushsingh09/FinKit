@@ -22,17 +22,17 @@ FinKit is a collection of four intuitive mini-apps:
 ### 2. Kurrency Konverter *(Currency Converter)*
 - **USD to INR conversion**: Instantly converts US Dollars to Indian Rupees.
 - **Easy to use**: Just enter the amount in USD, and get the INR equivalent.
-- ![Kurrency Konverter Screenshot](assets/img/Kurrency%20Konverter.png)
+- ![Kurrency Konverter Screenshot](assets/img/kurrency-konverter.png)
 
 ### 3. Discount Deducer *(Discount Calculator)*
 - **Calculate discounts**: Enter the total amount and discount percentage to see the final price and total savings.
 - **Shopping made smarter**: Know exactly how much you save on every purchase.
-- ![Discount Deducer Screenshot](assets/img/Discount%20Deducer.png)
+- ![Discount Deducer Screenshot](assets/img/discount-deducer.png)
 
 ### 4. Bill Batwara *(Bill Splitter)*
 - **Split bills easily**: Enter the total bill and number of people—get how much everyone needs to pay.
 - **Perfect for group outings**: No more confusion after parties or dinners.
-- ![Bill Batwara Screenshot](assets/img/Bill%20Batwara.png)
+- ![Bill Batwara Screenshot](assets/img/bill-batwara.png)
 
 ---
 
