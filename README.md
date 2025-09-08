@@ -12,34 +12,38 @@ Try FinKit online: [https://finkit-v1.netlify.app/](https://finkit-v1.netlify.ap
 
 ## 🧰 Toolkit Overview
 
-FinKit is a collection of four intuitive mini-apps:
+FinKit includes four intuitive mini-apps:
 
-### 1. Paise Planner *(Finance Goal Tracker)*
+### 1. Paise Planner _(Finance Goal Tracker)_
+
 - **Set financial goals**: Input your target savings, current savings, and desired time frame.
 - **Monthly saving suggestion**: Calculates how much you need to save per month to reach your goal.
-- ![Paise Planner Screenshot](assets/img/paise-planner.png)
+- ![Paise Planner Screenshot](/assets/img/paise-planner.png)
 
-### 2. Kurrency Konverter *(Currency Converter)*
+### 2. Kurrency Konverter _(Currency Converter)_
+
 - **USD to INR conversion**: Instantly converts US Dollars to Indian Rupees.
-- **Easy to use**: Just enter the amount in USD, and get the INR equivalent.
-- ![Kurrency Konverter Screenshot](assets/img/kurrency-konverter.png)
+- **Easy to use**: Just enter the amount in USD to get the INR equivalent.
+- ![Kurrency Konverter Screenshot](/assets/img/kurrency-konverter.png)
 
-### 3. Discount Deducer *(Discount Calculator)*
+### 3. Discount Deducer _(Discount Calculator)_
+
 - **Calculate discounts**: Enter the total amount and discount percentage to see the final price and total savings.
 - **Shopping made smarter**: Know exactly how much you save on every purchase.
-- ![Discount Deducer Screenshot](assets/img/discount-deducer.png)
+- ![Discount Deducer Screenshot](/assets/img/discount-deducer.png)
 
-### 4. Bill Batwara *(Bill Splitter)*
-- **Split bills easily**: Enter the total bill and number of people—get how much everyone needs to pay.
+### 4. Bill Batwara _(Bill Splitter)_
+
+- **Split bills easily**: Enter the total bill and number of people to see how much everyone needs to pay.
 - **Perfect for group outings**: No more confusion after parties or dinners.
-- ![Bill Batwara Screenshot](assets/img/bill-batwara.png)
+- ![Bill Batwara Screenshot](/assets/img/bill-batwara.png)
 
 ---
 
 ## 🌟 Features
 
-- **Simple and Intuitive UI**: Clean, distraction-free design for seamless user experience.
-- **Modular Structure**: Each tool is a mini-app—you can use only what you need.
+- **Simple and Intuitive UI**: Clean, distraction-free design for a seamless user experience.
+- **Modular Structure**: Each tool is a mini-app—use only what you need.
 - **Responsive Design**: Works smoothly on both desktop and mobile devices.
 - **Instant Calculations**: All tools provide immediate results, making finance management quick and hassle-free.
 
@@ -50,7 +54,7 @@ FinKit is a collection of four intuitive mini-apps:
 - **HTML5 & CSS3**
 - **JavaScript (Vanilla)**
 - **[PicoCSS](https://picocss.com/)** for minimal styling
-- **Modular file structure**: Each tool in `/assets/pages/`
+- **Modular file structure**: Each tool has its own JS and HTML in `/js/` and `/pages/`
 
 ---
 
@@ -59,17 +63,26 @@ FinKit is a collection of four intuitive mini-apps:
 ```plaintext
 FinKit/
 │
-├── index.html                # Main dashboard (Paise Planner)
-├── assets/
-│   ├── css/
-│   │   └── main.css
-│   ├── img/
-│   │   └── [Tool Images]
-│   ├── pages/
-│   │   ├── converter.html    # Kurrency Konverter
-│   │   ├── discount-cal.html # Discount Deducer
-│   │   └── bill-batwara.html # Bill Batwara
-├── README.md                 # You are here!
+├── index.html                  # Main dashboard (Paise Planner)
+├── css/
+│   └── main.css
+├── img/
+│   ├── paise-planner.png
+│   ├── kurrency-konverter.png
+│   ├── discount-deducer.png
+│   └── bill-batwara.png
+├── js/
+│   ├── paise-planner.js
+│   ├── converter.js
+│   ├── discount-cal.js
+│   └── bill-batwara.js
+├── pages/
+│   ├── converter.html          # Kurrency Konverter
+│   ├── discount-cal.html       # Discount Deducer
+│   └── bill-batwara.html       # Bill Batwara
+├── .gitignore
+├── License.md                  # MIT License
+├── README.md                   # You are here!
 ```
 
 ---
@@ -105,7 +118,7 @@ Feel free to fork the repo and open a pull request.
 
 ## 📄 License
 
-This project is [MIT](LICENSE) licensed.
+This project is [MIT](License.md) licensed.
 
 ---
 
