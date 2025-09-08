@@ -63,26 +63,27 @@ FinKit includes four intuitive mini-apps:
 ```plaintext
 FinKit/
 │
-├── index.html                  # Main dashboard (Paise Planner)
-├── css/
-│   └── main.css
-├── img/
-│   ├── paise-planner.png
-│   ├── kurrency-konverter.png
-│   ├── discount-deducer.png
-│   └── bill-batwara.png
-├── js/
-│   ├── paise-planner.js
-│   ├── converter.js
-│   ├── discount-cal.js
-│   └── bill-batwara.js
-├── pages/
-│   ├── converter.html          # Kurrency Konverter
-│   ├── discount-cal.html       # Discount Deducer
-│   └── bill-batwara.html       # Bill Batwara
+├── index.html                      # Main dashboard (Paise Planner)
+├── assets/
+│   ├── css/
+│   │   └── main.css
+│   ├── img/
+│   │   ├── paise-planner.png
+│   │   ├── kurrency-konverter.png
+│   │   ├── discount-deducer.png
+│   │   └── bill-batwara.png
+│   ├── js/
+│   │   ├── paise-planner.js
+│   │   ├── converter.js
+│   │   ├── discount-cal.js
+│   │   └── bill-batwara.js
+│   └── pages/
+│       ├── converter.html          # Kurrency Konverter
+│       ├── discount-cal.html       # Discount Deducer
+│       └── bill-batwara.html       # Bill Batwara
 ├── .gitignore
-├── License.md                  # MIT License
-├── README.md                   # You are here!
+├── License.md                      # MIT License
+└── README.md                       # You are here!
 ```
 
 ---
